@@ -394,6 +394,11 @@ class Entrega {
      * Determinau si el graf és connex. Podeu suposar que `g` no és dirigit.
      */
     static boolean exercici1(int[][] g) {
+      //Si todos los vértices son alcanzables desde cualquier vértice de partida, entonces el grafo es conexo.
+      int n = g.length;
+      boolean[] visitado = new boolean[n];
+      
+      
       return false; // TO DO
     }
 
